@@ -4,7 +4,7 @@ import Image from "next/image";
 import React from "react";
 import { CardBody, CardContainer, CardItem } from "@/components/ui/3dcard";
 import Link from "next/link";
-import Pic4 from "@/images/pIC4.jpg";
+import Pic4 from "@/images/PIC4.jpg";
 import Pic2 from "@/images/pic2.jpg";
 import Pic3 from "@/images/pic3.jpg";
 
