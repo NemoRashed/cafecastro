@@ -53,7 +53,7 @@ export default function Hero() {
             className="bg-[#b99154] hover:bg-[#182e28] text-white px-10 py-4 rounded-full text-lg 
             font-semibold transition-all duration-300 transform hover:scale-110 shadow-lg"
           >
-            View Our Menu
+            Book table
           </button>
         </div>
       </div>
