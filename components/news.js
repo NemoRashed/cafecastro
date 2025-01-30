@@ -40,8 +40,8 @@ const newsItems = [
 
 export default function News() {
   return (
-    <div className="flex flex-col justify-center items-center mt-10 p-4">
-      <h1 className="text-center text-3xl md:text-5xl font-extrabold text-gray-800 mb-6">
+    <div className="flex flex-col justify-center items-center mt-6 p-4">
+      <h1 className="text-center text-3xl md:text-5xl font-extrabold text-gray-800 ">
         Latest News from Us
       </h1>
       <Swiper
@@ -55,7 +55,7 @@ export default function News() {
         }}
         autoplay={{ delay: 3000, disableOnInteraction: false }}
         pagination={{ clickable: true }}
-        className="w-full max-w-6xl"
+        className="w-full max-w-6xl "
       >
         {newsItems.map((item, index) => (
           <SwiperSlide key={index} className="flex justify-center">

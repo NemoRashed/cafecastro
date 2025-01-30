@@ -26,7 +26,7 @@ const Footer = () => {
 
           {/* Middle Menu List Row */}
           <div className="text-center md:text-left">
-            <ul className="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-6">
+            <ul className="flex  flex-row  space-y-0 space-x-6">
               {[
                 { href: "/", label: "Home" },
                 { href: "/About", label: "About" },

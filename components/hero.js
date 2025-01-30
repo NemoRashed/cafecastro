@@ -43,14 +43,14 @@ export default function Hero() {
       <div className="relative h-full flex flex-col items-center justify-center text-center px-6">
         <div className="max-w-4xl bg-white/10 backdrop-blur-lg rounded-2xl p-10 shadow-lg border border-white/20">
           <h1 className="text-5xl md:text-7xl font-extrabold text-white mb-6 animate-fade-in">
-            Welcome to <span className="text-[#b99154]">Café Castro</span>
+            Welcome to <span className="text-[#deae65]">Café Castro</span>
           </h1>
           <p className="text-lg md:text-2xl text-white/80 mb-8 animate-fade-in-delay">
             Experience the perfect blend of artisanal coffee and a cozy
             ambiance.
           </p>
           <button
-            className="bg-[#b99154] hover:bg-[#182e28] text-white px-10 py-4 rounded-full text-lg 
+            className="bg-[#deae65] hover:bg-[#182e28] text-white px-10 py-4 rounded-full text-lg 
             font-semibold transition-all duration-300 transform hover:scale-110 shadow-lg"
           >
             Book table

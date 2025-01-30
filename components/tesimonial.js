@@ -8,7 +8,7 @@ export default function tesimonial() {
     <div className="py-10">
       <div className="flex flex-col justify-center items-center ">
         <h1 className="text-center text-3xl md:text-5xl font-extrabold text-gray-800 ">
-          Testimonial
+          What Our Customers Say
         </h1>
       </div>
       <div className="h-[20rem]  rounded-md flex flex-col antialiased  dark:bg-black dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">

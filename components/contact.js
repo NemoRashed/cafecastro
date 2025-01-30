@@ -26,7 +26,7 @@ function Contact() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 mx-10">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 md:mx-10">
             {/* Contact Information Card */}
             <div className="bg-white rounded-2xl shadow-[20px_20px_60px_#bebebe,-20px_-20px_60px_#ffffff] p-8 transition-all duration-300 hover:shadow-[10px_10px_30px_#bebebe,-10px_-10px_30px_#ffffff]">
               <div className="space-y-8">

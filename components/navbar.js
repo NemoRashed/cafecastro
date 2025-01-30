@@ -36,7 +36,7 @@ export default function Navbar() {
             width={100}
             height={100}
             alt="Company Logo"
-            className="w-36"
+            className="w-20 md:w-36"
           />
         </Link>
 
