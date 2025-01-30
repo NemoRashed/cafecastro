@@ -9,7 +9,7 @@ import Pic3 from "@/images/pic3.jpg";
 export default function About() {
   return (
     <div>
-      <section className="relative py-16 bg-gray-50">
+      <section className="relative py-16 bg-gray-100">
         <div className="max-w-4xl mx-auto text-center px-4">
           <h2 className="text-center text-3xl md:text-5xl font-extrabold mb-5">
             About us
