@@ -5,12 +5,19 @@ import { InfiniteMovingCards } from "@/components/ui/tesimo";
 
 export default function tesimonial() {
   return (
-    <div className="h-[40rem] rounded-md flex flex-col antialiased bg-white dark:bg-black dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
-      <InfiniteMovingCards
-        items={testimonials}
-        direction="right"
-        speed="slow"
-      />
+    <div className="py-10">
+      <div className="flex flex-col justify-center items-center ">
+        <h1 className="text-center text-3xl md:text-5xl font-extrabold text-gray-800 ">
+          Testimonial
+        </h1>
+      </div>
+      <div className="h-[20rem]  rounded-md flex flex-col antialiased  dark:bg-black dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
+        <InfiniteMovingCards
+          items={testimonials}
+          direction="right"
+          speed="slow"
+        />
+      </div>
     </div>
   );
 }
@@ -18,31 +25,37 @@ export default function tesimonial() {
 const testimonials = [
   {
     quote:
-      "It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair.",
-    name: "Charles Dickens",
-    title: "A Tale of Two Cities",
+      "Dejlig hyggelig café, som er svært at finde på Nørrebro og indre by. Med lækkert mad, speciel deres burger! Prisen er god, og personalet har altid humøret i top, hvilket er svært at finde nu om dage. Helt klart et af mine favorit steder, specielt om sommeren med deres store udendørs areal, som er perfekt til at nyde solen på.",
+    name: "Sofia L.",
+    title: "Google Review",
+    rating: 5,
   },
   {
     quote:
-      "To be, or not to be, that is the question: Whether 'tis nobler in the mind to suffer The slings and arrows of outrageous fortune, Or to take Arms against a Sea of troubles, And by opposing end them: to die, to sleep.",
-    name: "William Shakespeare",
-    title: "Hamlet",
-  },
-  {
-    quote: "All that we see or seem is but a dream within a dream.",
-    name: "Edgar Allan Poe",
-    title: "A Dream Within a Dream",
+      "Genbesøg på den ny opbyggede Cafe Castro. Fik den lækreste pasta Casto Time. Waow hvor lækker og fyldig godt med kød. God stor portion. 1 glas Andeluna hvidvin. Også meget smag.",
+    name: "Anonymous",
+    title: "",
+    rating: 4,
   },
   {
     quote:
-      "It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife.",
-    name: "Jane Austen",
-    title: "Pride and Prejudice",
+      "Hyggelig atmosfære, venligt personale og fantastisk mad! Vi kommer helt sikkert igen. Kan varmt anbefales.",
+    name: "Mikkel T.",
+    title: "TripAdvisor Review",
+    rating: 5,
   },
   {
     quote:
-      "Call me Ishmael. Some years ago—never mind how long precisely—having little or no money in my purse, and nothing particular to interest me on shore, I thought I would sail about a little and see the watery part of the world.",
-    name: "Herman Melville",
-    title: "Moby-Dick",
+      "Super god service og lækker mad. Især deres brunch er fantastisk – gode råvarer og en hyggelig stemning.",
+    name: "Emilie R.",
+    title: "Facebook Review",
+    rating: 3,
+  },
+  {
+    quote:
+      "Jeg har været her flere gange, og maden skuffer aldrig! Godt udvalg og fair priser. Perfekt til en afslappet aften med venner.",
+    name: "Jonas B.",
+    title: "Google Review",
+    rating: 5,
   },
 ];

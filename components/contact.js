@@ -40,23 +40,23 @@ function Contact() {
                     {[
                       {
                         icon: MapPin,
-                        text: "123 Coffee Street, Downtown",
+                        text: "Nørrebrogade 209, 2200 Copenhagen N",
                         subtext: "Main Location",
                       },
                       {
                         icon: Phone,
-                        text: "(555) 123-4567",
-                        subtext: "Mon-Fri 9am-6pm",
+                        text: "35 85 35 85",
+                        subtext: "Mon-Fri 10am-10pm",
                       },
                       {
                         icon: Mail,
-                        text: "hello@coffeehouse.com",
+                        text: "post@cafecastro.dk",
                         subtext: "Email us anytime",
                       },
                       {
                         icon: Clock,
-                        text: "Mon-Fri: 7am - 8pm",
-                        subtext: "Sat-Sun: 8am - 6pm",
+                        text: "Mon-Thurs: 10am - 10pm",
+                        subtext: "Fri-Sat: 10am - 11pm | Sun: 10am - 10pm",
                       },
                     ].map((item, index) => (
                       <div
@@ -112,7 +112,7 @@ function Contact() {
               </h2>
               <div className="rounded-xl overflow-hidden shadow-inner bg-gray-50 p-1">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.1839901106836!2d-73.98784368459377!3d40.74844097932847!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a9b3117469%3A0xd134e199a405a163!2sEmpire%20State%20Building!5e0!3m2!1sen!2sus!4v1629794729599!5m2!1sen!2sus"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2250.558385096879!2d12.545598315927048!3d55.69802998053095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465252f1b8f9f8b9%3A0x1f8e8b8f8f8f8f8f!2sN%C3%B8rrebrogade%20209%2C%202200%20K%C3%B8benhavn%20N%2C%20Denmark!5e0!3m2!1sen!2sdk!4v1629794729599!5m2!1sen!2sdk"
                   width="100%"
                   height="500"
                   style={{ border: 0 }}
